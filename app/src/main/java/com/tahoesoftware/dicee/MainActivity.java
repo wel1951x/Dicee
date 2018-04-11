@@ -33,8 +33,8 @@ public class MainActivity
         Button rollButton;
         rollButton = (Button) findViewById(R.id.rollButton);
 
-        final ImageView leftDie = (ImageView) findViewById(R.id.image_leftDie),
-                        rightDie = (ImageView) findViewById(R.id.image_rightDie);
+        final ImageView leftDie = (ImageView) findViewById(R.id.image_leftDice),
+                        rightDie = (ImageView) findViewById(R.id.image_rightDice);
 
         rollButton.setOnClickListener(new View.OnClickListener()
             {
